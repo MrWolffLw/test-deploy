@@ -11,6 +11,6 @@ jobs:
       - name: Installer PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2' # Il installe la même version que toi
+          php-version: '8.5' # Il installe la même version que toi
       - name: Verifier l'installation
         run: composer install --no-scripts # Il vérifie que tout fonctionne
